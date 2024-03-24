@@ -912,14 +912,15 @@ body {
 
   .project2 {
 	display: flex;
-	max-width: 1800px;
+	/* max-width: 1800px; */
+	max-width: 100%;
+	height: auto;
 	background-color: #8b8989; /* Fond noir pour le conteneur du projet */
 	border-radius: 10px;
 	overflow: hidden;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .project2 img {
-	width: 1300px;
-    height: 950px;
+  /* .project2 img {
+	height: auto;
 	object-fit: cover;
-  }
+  } */
